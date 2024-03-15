@@ -1,3 +1,5 @@
+/* Fuentes de google */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     margin: 0;
@@ -23,7 +25,7 @@ header a{
     color: #eee;
     margin-right: 40px;
 }
-/* carousel */
+/* Este es el carrusel a ver si sirve */
 .carousel{
     height: 100vh;
     margin-top: -50px;
@@ -86,7 +88,7 @@ header a{
     border: 1px solid #fff;
     color: #eee;
 }
-/* thumbail */
+/* Estas son las miniaturas, mira a ver si estan bien o toca cambiarlas */
 .thumbnail{
     position: absolute;
     bottom: 50px;
@@ -121,7 +123,7 @@ header a{
 .thumbnail .item .content .description{
     font-weight: 300;
 }
-/* arrows */
+/* fechas (podemos modificar estos dani, porque no se ven bien */
 .arrows{
     position: absolute;
     top: 80%;
@@ -149,12 +151,12 @@ header a{
     color: #000;
 }
 
-/* animation */
+/* animaciones */
 .carousel .list .item:nth-child(1){
     z-index: 1;
 }
 
-/* animation text in first item */
+/* La animacion de los primeros items */
 
 .carousel .list .item:nth-child(1) .content .author,
 .carousel .list .item:nth-child(1) .content .title,
@@ -229,7 +231,7 @@ header a{
     }
 }
 
-/* running time */
+/* Tiempo que corre en la parte superior diseño */
 
 .carousel .time{
     position: absolute;

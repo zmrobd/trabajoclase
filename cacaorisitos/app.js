@@ -1,4 +1,4 @@
-//step 1: get DOM
+//Paso uno: Aqui pues lo basico obtener el DOM, llamamos a las los id del html
 let nextDom = document.getElementById('next');
 let prevDom = document.getElementById('prev');
 
@@ -8,14 +8,18 @@ let thumbnailBorderDom = document.querySelector('.carousel .thumbnail');
 let thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
 let timeDom = document.querySelector('.carousel .time');
 
+
+// Este es el tiempo en que cambia el slider
 thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
 let timeRunning = 3000;
 let timeAutoNext = 7000;
 
+// funcion para  pasar la pagina con los botones
 nextDom.onclick = function(){
     showSlider('next');    
 }
 
+// Lo mismo pero atras
 prevDom.onclick = function(){
     showSlider('prev');    
 }
